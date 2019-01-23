@@ -1,0 +1,64 @@
+body {
+	background-color: black;
+}
+
+#drum-machine {
+	display: flex;
+	flex-flow: column wrap;
+	border: 3px solid blue;
+	height: 400px;
+	width: 560px;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 0 auto;
+}
+
+#display {
+	color: white;
+	background-color: grey;
+	text-align: center;
+	font-size: 30px;
+	border: 3px solid blue;
+	min-width: 200px;
+	min-height: 30px;
+}
+
+#buttons {
+	display: flex;
+	flex-flow: row wrap;
+	width: 420px;
+}
+
+.btn {
+	height: 60px;
+	width: 140px;
+	font-size: 30px;
+	border: 1px solid black;
+}
+
+@media (max-width: 740px) {
+	#drum-machine {
+		height: 200px;
+		width: 280px;
+	}
+
+	#display {
+		font-size: 15px;
+		border: 2px solid blue;
+		min-width: 100px;
+		min-height: 15px;
+	}
+
+	#buttons {
+		display: flex;
+		flex-flow: row wrap;
+		width: 210px;
+	}
+
+	.btn {
+		height: 30px;
+		width: 70px;
+		font-size: 15px;
+		border: 1px solid black;
+	}
+}
