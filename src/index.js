@@ -178,8 +178,6 @@ const mapDispatchToProps = dispatch => {
 	};
 };
 
-store.subscribe(() => console.log(store.getState()));
-
 // React
 class Btn extends React.Component {
 	constructor(props) {
